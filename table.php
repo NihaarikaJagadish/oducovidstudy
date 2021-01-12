@@ -1,6 +1,5 @@
 <?php  
 session_start();
-echo ($_SESSION['id']);
 if(!isset($_SESSION['id'])){
   die(header("Location: index.php"));
 }
@@ -16,7 +15,6 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 else{
-    // echo "success";
 }
 
  $query ="SELECT * FROM Responses";  

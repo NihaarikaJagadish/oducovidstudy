@@ -11,7 +11,6 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 else{
-    // echo "success";
 }
 
 $first_name = mysqli_real_escape_string($link, $_REQUEST['name']);

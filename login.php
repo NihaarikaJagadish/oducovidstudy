@@ -5,7 +5,6 @@ $pass = $_POST["psw"];
 console.log($email);
 console.log($pass);
 if($email == 'admin' && $pass == 'admin@123'){
-    echo "Success";
     
     $_SESSION['id'] = "LoggedIn";
     header("Location: table.php"); 
