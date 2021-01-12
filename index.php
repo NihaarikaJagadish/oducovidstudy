@@ -126,7 +126,7 @@ body {
 
 <div class="topnav">
   <a class="active">ODU Covid Study</a>
-  <a href="#contact">Register</a>
+  <!-- <a href="#contact">Register</a> -->
   <div class="login-container">
     <form action="login.php" method = "post">
       <input type="text" placeholder="Username" name="username">
@@ -145,7 +145,7 @@ body {
         <div class="form-header-group  header-large">
           <div class="header-text httal htvam">
             <h1 id="header_1" class="form-header" data-component="header">
-             Registration Form
+             Express your interest
             </h1>
           </div>
         </div>
@@ -173,7 +173,7 @@ body {
               <label class="form-sub-label" for="first_4" id="sublabel_4_first" style="min-height:13px" aria-hidden="false"> First Name </label>
             </span>
             <span class="form-sub-label-container" style="vertical-align:top" data-input-type="last">
-              <input type="text" id="last_name" name="last_name" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_4 sublabel_4_last" required="" />
+              <input type="text" id="last_name" name="last_name" class="form-textbox validate[required]" size="15" value="" data-component="last" aria-labelledby="label_4 sublabel_4_last"  />
               <label class="form-sub-label" for="last_4" id="sublabel_4_last" style="min-height:13px" aria-hidden="false"> Last Name </label>
             </span>
           </div>
@@ -231,7 +231,7 @@ body {
           </span>
         </label>
         <div id="cid_11" class="form-input-wide jf-required" data-layout="half">
-          <input type="number" id="age" name="age" data-type="input-number" class=" form-number-input form-textbox validate[required]" style="width:310px" size="310" value="" placeholder="ex: 23" data-component="number" aria-labelledby="label_11" required="" step="any" />
+          <input type="number" id="age" name="age" data-type="input-number" class=" form-number-input form-textbox validate[required]" style="width:310px" size="310" value="" placeholder="ex: 23" data-component="number" aria-labelledby="label_11" required="" step="any" maxlength = "3"/>
         </div>
       </li>
       <li class="form-line jf-required" data-type="control_phone" id="id_8">
@@ -243,7 +243,7 @@ body {
         </label>
         <div id="cid_8" class="form-input-wide jf-required" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="number" id="phone" name="phone" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_8 sublabel_8_masked" required="" maxlength="10"/>
+            <input type="number" id="phone" name="phone" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_8 sublabel_8_masked" required="" maxlength="10" minlength = "10"/>
             <label class="form-sub-label" for="input_8_full" id="sublabel_8_masked" style="min-height:13px" aria-hidden="false"> Please enter a valid phone number. </label>
           </span>
         </div>
