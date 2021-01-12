@@ -243,7 +243,7 @@ body {
         </label>
         <div id="cid_8" class="form-input-wide jf-required" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="number" id="phone" name="phone" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_8 sublabel_8_masked" required="" maxlength="10" minlength = "10"/>
+            <input type="number" id="phone" name="phone" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_8 sublabel_8_masked" required="" maxlength="10" />
             <label class="form-sub-label" for="input_8_full" id="sublabel_8_masked" style="min-height:13px" aria-hidden="false"> Please enter a valid phone number. </label>
           </span>
         </div>
