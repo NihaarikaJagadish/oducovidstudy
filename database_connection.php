@@ -139,7 +139,7 @@ body {
     <centre>
     <div class="topnav">
   <a class="active" href = "index.php">ODU Covid Study</a>
-  <a href="index.php">Register</a>
+
   <div class="login-container">
     <form action="login.php" method = "post">
       <input type="text" placeholder="Username" name="username">

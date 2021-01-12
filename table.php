@@ -125,7 +125,7 @@ body {
 
 <div class="topnav">
   <a class="active">ODU Covid Study</a>
-  <a href="#contact">Register</a>
+
   
   <div class="login-container">
   <button type="button" onclick="location.href = 'index.php'">Logout</button>
